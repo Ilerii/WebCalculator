@@ -41,20 +41,20 @@ body{
     
 }
 [data-key="equal"] {
-    background: brown;
+    background:blue;
     width:400px;
 }
 [data-key="mult"]{
-    background: brown;
+    background:blue;
 }
 [data-key="plus"]{
-    background: brown;
+    background: blue;
 }
 [data-key="minus"]{
-    background: brown;
+    background:  blue;
 }
 [data-key="div"] {
-    background: brown;
+    background:  blue;
 }
 
 
