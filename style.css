@@ -1,0 +1,61 @@
+html{
+    font-size: 150%;
+    font-weight:300;
+    line-height: 1;
+}
+
+body{
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+
+}
+
+#base{
+    box-shadow: 0 0 25px 0;
+    
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+
+#screen{
+    background: grey;
+    color: black;
+    height: 50px;
+    width: auto;
+    padding: 0.75rem 1rem;
+    text-align: right;
+    
+    
+} 
+#keys{
+    background: lightblue;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    height: 300px;
+    
+}
+[data-key="equal"] {
+    background: brown;
+    width:400px;
+}
+[data-key="mult"]{
+    background: brown;
+}
+[data-key="plus"]{
+    background: brown;
+}
+[data-key="minus"]{
+    background: brown;
+}
+[data-key="div"] {
+    background: brown;
+}
+
+
+
